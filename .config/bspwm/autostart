@@ -1,0 +1,8 @@
+#! /bin/sh
+
+sxhkd &
+xsetroot -cursor_name left_ptr &
+$HOME/.config/polybar/launch.sh &
+feh --no-fehbg --bg-fill $HOME/.wallpaper/qwerty &
+setxkbmap -option grp:alt_shift_toggle us,ru &
+picom &
